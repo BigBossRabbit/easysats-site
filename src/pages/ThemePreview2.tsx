@@ -16,7 +16,7 @@ const ThemePreview2 = () => {
               THE EASYSATS CHRONICLE
             </h1>
             <p className="text-sm text-muted-foreground tracking-widest">
-              BRINGING BITCOIN TO THE MASSES • EST. BLOCKHEIGHT 736253 • NAMIBIA
+              BUILDING TOMORROW, TODAY • EST. BLOCKHEIGHT 736253 • NAMIBIA
             </p>
           </div>
           <nav className="flex justify-center gap-8 mt-6 text-sm font-serif border-t border-b border-border py-3">
@@ -42,14 +42,14 @@ const ThemePreview2 = () => {
             <div className="columns-1 md:columns-2 gap-8 text-sm leading-relaxed font-serif space-y-4">
               <p className="text-lg first-letter:text-5xl first-letter:font-bold first-letter:text-primary first-letter:float-left first-letter:mr-2">
                 At EasySats, it is our mission to find ways that allow users to easily purchase Bitcoin,
-                while using our accumulated expertise and technical knowledge to ensure that not only can
-                people purchase it, but they are made aware of how they can accept it for their goods and
+                while using our accumulated expertise & technical knowledge to ensure that not only can
+                people purchase it, but they are made aware of how they can earn & accept it for their goods &
                 services as well as securely store it themselves.
               </p>
 
               <p>
                 We are accessible to people of all income levels, to purposefully be inclusive of those
-                who are always excluded. Anyone can purchase, accept & store Bitcoin using tailored
+                who are always excluded. Anyone can earn, purchase, accept & store Bitcoin using tailored
                 solutions from us, regardless of their financial status or level of experience.
               </p>
             </div>
@@ -70,11 +70,11 @@ const ThemePreview2 = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary">■</span>
-                  <span>Instant confirmation via Lightning Network</span>
+                  <span>Instant payment confirmation via Lightning Network</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary">■</span>
-                  <span>No bank account required</span>
+                  <span>No bank account or permission required</span>
                 </li>
               </ul>
             </div>
