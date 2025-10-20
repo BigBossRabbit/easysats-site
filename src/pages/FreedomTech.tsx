@@ -68,37 +68,122 @@ const FreedomTech = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors">
-            <div className="flex items-center justify-between mb-4">
-              <Github className="h-8 w-8 text-primary" />
-              <span className="text-xs text-muted-foreground font-mono">OPEN</span>
+          {/* Time2Build Project */}
+          <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors relative overflow-hidden">
+            {/* Techy Background Pattern */}
+            <div className="absolute inset-0 opacity-5">
+              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/20 to-transparent"></div>
+              <div className="absolute top-4 right-4 w-16 h-16 border border-primary/20 rounded-full"></div>
+              <div className="absolute bottom-4 left-4 w-8 h-8 border border-primary/20 rounded-full"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 border border-primary/10 rounded-full"></div>
             </div>
-            <h3 className="text-lg font-semibold mb-2">Open Source Project 1</h3>
-            <p className="text-sm text-muted-foreground mb-4">
-              Description of the open source opportunity will go here.
-            </p>
-            <div className="flex gap-2">
-              <Button variant="outline" size="sm" className="gap-2">
-                <ExternalLink className="h-3 w-3" />
-                View Project
-              </Button>
+            
+            <div className="relative z-10">
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="relative">
+                    <Terminal className="h-8 w-8 text-primary" />
+                    <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                  </div>
+                  <div>
+                    <span className="text-xs text-muted-foreground font-mono">TIME2BUILD</span>
+                    <div className="flex items-center gap-1 text-xs text-green-500 font-mono">
+                      <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                      <span>ACTIVE</span>
+                    </div>
+                  </div>
+                </div>
+                <span className="text-xs text-muted-foreground font-mono">REMOTE</span>
+              </div>
+              
+              <h3 className="text-lg font-semibold mb-2 font-mono">Time2Build Bitcoin Development</h3>
+              <p className="text-sm text-muted-foreground mb-4">
+                Join a Bitcoin development program focused on building the future of decentralized technology. 
+                Work on cutting-edge Bitcoin projects and contribute to the ecosystem.
+              </p>
+              
+              {/* Additional Details */}
+              <div className="mb-4 p-3 bg-primary/5 border border-primary/20 rounded">
+                <div className="text-xs text-primary font-mono mb-2">PROGRAM DETAILS:</div>
+                <ul className="text-xs text-muted-foreground space-y-1">
+                  <li>• Remote Bitcoin development opportunities</li>
+                  <li>• Work on real-world Bitcoin projects</li>
+                  <li>• Contribute to the Bitcoin ecosystem</li>
+                  <li>• Learn from experienced developers</li>
+                </ul>
+              </div>
+              
+              {/* Tech Stack Visualization */}
+              <div className="mb-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-xs text-muted-foreground font-mono">STACK:</span>
+                  <div className="flex gap-1">
+                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    <div className="w-2 h-2 bg-yellow-500 rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                    <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-1">
+                  {['Bitcoin', 'Lightning', 'Rust', 'C++', 'JavaScript', 'Python'].map((tech) => (
+                    <span key={tech} className="px-2 py-1 text-xs bg-primary/10 text-primary rounded font-mono">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              
+              {/* Terminal Status */}
+              <div className="mb-4 p-2 bg-black/50 rounded font-mono text-xs">
+                <div className="text-green-400 mb-1">
+                  <span className="text-primary">$</span> time2build --status
+                </div>
+                <div className="text-green-400">
+                  ✓ Program active • ✓ Remote positions available • ✓ Bitcoin focus
+                </div>
+              </div>
+              
+              <div className="flex gap-2">
+                <Button variant="outline" size="sm" className="gap-2" asChild>
+                  <a href="https://www.time2build.dev/" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-3 w-3" />
+                    Apply Now
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" className="gap-2" asChild>
+                  <a href="https://www.time2build.dev/" target="_blank" rel="noopener noreferrer">
+                    <Code2 className="h-3 w-3" />
+                    Learn More
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
 
-          <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors">
-            <div className="flex items-center justify-between mb-4">
-              <GitBranch className="h-8 w-8 text-primary" />
-              <span className="text-xs text-muted-foreground font-mono">OPEN</span>
+          {/* Placeholder for Future Project */}
+          <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors relative overflow-hidden">
+            {/* Subtle Tech Pattern */}
+            <div className="absolute inset-0 opacity-5">
+              <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-bl from-primary/20 to-transparent"></div>
+              <div className="absolute top-6 left-6 w-12 h-12 border border-primary/20 rounded-full"></div>
+              <div className="absolute bottom-6 right-6 w-6 h-6 border border-primary/20 rounded-full"></div>
             </div>
-            <h3 className="text-lg font-semibold mb-2">Open Source Project 2</h3>
-            <p className="text-sm text-muted-foreground mb-4">
-              Description of the open source opportunity will go here.
-            </p>
-            <div className="flex gap-2">
-              <Button variant="outline" size="sm" className="gap-2">
-                <ExternalLink className="h-3 w-3" />
-                View Project
-              </Button>
+            
+            <div className="relative z-10">
+              <div className="flex items-center justify-between mb-4">
+                <GitBranch className="h-8 w-8 text-primary" />
+                <span className="text-xs text-muted-foreground font-mono">COMING SOON</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2">More Projects Coming</h3>
+              <p className="text-sm text-muted-foreground mb-4">
+                We're constantly adding new Bitcoin and freedom tech opportunities. 
+                Stay tuned for more exciting projects.
+              </p>
+              <div className="flex gap-2">
+                <Button variant="outline" size="sm" className="gap-2" disabled>
+                  <ExternalLink className="h-3 w-3" />
+                  View Project
+                </Button>
+              </div>
             </div>
           </div>
         </div>
