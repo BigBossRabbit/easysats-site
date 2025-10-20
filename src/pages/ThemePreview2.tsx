@@ -16,7 +16,7 @@ const ThemePreview2 = () => {
               THE EASYSATS CHRONICLE
             </h1>
             <p className="text-sm text-muted-foreground tracking-widest">
-              BRINGING BITCOIN TO THE MASSES • EST. 2023 • NAMIBIA
+              BRINGING BITCOIN TO THE MASSES • EST. BLOCKHEIGHT 736253 • NAMIBIA
             </p>
           </div>
           <nav className="flex justify-center gap-8 mt-6 text-sm font-serif border-t border-b border-border py-3">
