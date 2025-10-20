@@ -22,6 +22,8 @@ const FreedomTech = () => {
             <nav className="hidden md:flex items-center gap-6 text-sm">
               <Link to="/" className="text-muted-foreground hover:text-primary transition-colors">~/home</Link>
               <Link to="/freedomtech" className="text-primary">~/freedomtech</Link>
+              <Link to="/timeforce" className="text-muted-foreground hover:text-primary transition-colors">~/timeforce</Link>
+              <Link to="/jobs" className="text-muted-foreground hover:text-primary transition-colors">~/jobs</Link>
             </nav>
           </div>
         </div>

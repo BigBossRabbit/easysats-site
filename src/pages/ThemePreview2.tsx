@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Newspaper } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ThemePreview2 = () => {
   return (
@@ -21,10 +22,10 @@ const ThemePreview2 = () => {
           </div>
           <nav className="flex justify-center gap-8 mt-6 text-sm font-serif border-t border-b border-border py-3">
             <a href="#" className="hover:text-primary transition-colors uppercase tracking-wide">About</a>
-            <a href="#" className="hover:text-primary transition-colors uppercase tracking-wide">Jobs</a>
-            <a href="#" className="hover:text-primary transition-colors uppercase tracking-wide">TimeForce</a>
+            <Link to="/jobs" className="hover:text-primary transition-colors uppercase tracking-wide">Jobs</Link>
+            <Link to="/timeforce" className="hover:text-primary transition-colors uppercase tracking-wide">TimeForce</Link>
             <a href="#" className="hover:text-primary transition-colors uppercase tracking-wide">TPOK</a>
-            <a href="/freedomtech" className="hover:text-primary transition-colors uppercase tracking-wide">FreedomTech</a>
+            <Link to="/freedomtech" className="hover:text-primary transition-colors uppercase tracking-wide">FreedomTech</Link>
           </nav>
         </div>
       </header>
