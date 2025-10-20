@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Newspaper } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const ThemePreview2 = () => {
+const EasySatsHub = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header className="border-b-4 border-primary bg-card">
@@ -92,6 +92,6 @@ const ThemePreview2 = () => {
   );
 };
 
-export default ThemePreview2;
+export default EasySatsHub;
 
 
