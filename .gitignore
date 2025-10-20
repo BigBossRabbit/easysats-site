@@ -1,0 +1,11 @@
+# Node
+node_modules
+.cache
+.vite
+dist
+.DS_Store
+.env
+.env.*
+.npmrc
+.idea
+.vscode
