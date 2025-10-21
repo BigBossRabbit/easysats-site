@@ -67,6 +67,9 @@ const Jobs = () => {
             </Button>
             <Button size="lg" variant="outline" className="gap-2">
               <ExternalLink className="h-4 w-4" />
+              <a href="https://bitcoinerjobs.com/" target="_blank" rel="noopener noreferrer">
+              Open External Link
+              </a>
               Visit Bitcoiner Jobs
             </Button>
           </div>
@@ -181,7 +184,7 @@ const Jobs = () => {
           
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Job Board Embed */}
-            <div className="bg-background border border-border rounded-lg p-6">
+            <div className="bg-background border border-border rounded-lg p-16">
               <div className="mb-6 text-center">
                 <div className="flex items-center justify-center gap-2 text-primary mb-2">
                   <Briefcase className="h-5 w-5" />
@@ -194,7 +197,7 @@ const Jobs = () => {
                 {/* Bitcoiner Jobs Branding */}
                 <div className="flex items-center justify-center gap-4 mb-4">
                   <div className="flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full">
-                    <img src="/2.png" alt="Bitcoiner Jobs" className="h-12 w-21" />
+                    <img src="/1.png" alt="Bitcoiner Jobs" className="h-12 w-15" />
                     <span className="text-xs font-medium text-primary">Powered by Bitcoiner Jobs</span>
                   </div>
                   <div className="text-xs text-muted-foreground">
@@ -225,16 +228,15 @@ const Jobs = () => {
               </div>
               
               <div className="mt-6 text-center space-y-3">
-                <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                  <img src="/2.png" alt="Bitcoiner Jobs" className="h-9 w-25" />
-                  <span>This job board is hosted by Bitcoiner Jobs</span>
-                </div>
+
                 <p className="text-sm text-muted-foreground">
                   Having trouble viewing jobs?
                 </p>
                 <Button variant="outline" className="gap-2">
                   <ExternalLink className="h-4 w-4" />
+                  <a href="https://bitcoinerjobs.com/" target="_blank" rel="noopener noreferrer">
                   Open Bitcoiner Jobs Website
+              </a>
                 </Button>
               </div>
             </div>
@@ -361,7 +363,7 @@ const Jobs = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-card border border-primary/50 rounded-lg p-8">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <img src="/3.png" alt="Bitcoiner Jobs" className="h-8 w-8" />
+              <img src="/2.png" alt="Bitcoiner Jobs" className="h-12 w-21" />
               <h2 className="text-3xl font-bold">
                 Ready to Start Earning Bitcoin?
               </h2>
@@ -372,7 +374,9 @@ const Jobs = () => {
             <div className="flex gap-4 justify-center">
               <Button size="lg" className="gap-2">
                 <Briefcase className="h-4 w-4" />
+                <a href="https://bitcoinerjobs.com/" target="_blank" rel="noopener noreferrer">
                 Browse Jobs Now
+              </a>
               </Button>
               <Button size="lg" variant="outline" className="gap-2">
                 <Link to="/timeforce" className="flex items-center gap-2">
