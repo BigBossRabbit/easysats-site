@@ -124,7 +124,7 @@ const FreedomTech = () => {
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-1">
-                  {['Bitcoin', 'Lightning', 'Rust', 'C++', 'JavaScript', 'Python'].map((tech) => (
+                  {['Bitcoin', 'Lightning', 'Rust', 'C++', 'JavaScript', 'Python', 'Breez SDK'].map((tech) => (
                     <span key={tech} className="px-2 py-1 text-xs bg-primary/10 text-primary rounded font-mono">
                       {tech}
                     </span>
@@ -169,7 +169,7 @@ const FreedomTech = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">More Projects Coming</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                We're constantly adding new Bitcoin and freedom tech opportunities. 
+                We're constantly adding new Bitcoin & freedom tech opportunities. 
                 Stay tuned for more exciting projects.
               </p>
               <div className="flex gap-2">

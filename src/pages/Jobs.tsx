@@ -99,15 +99,15 @@ const Jobs = () => {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Fixed supply of 21 million</span>
+                  <span>Fixed supply of up to 21 million Bitcoin</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Decentralized and censorship-resistant</span>
+                  <span>Decentralized & censorship-resistant</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Store of value for the future</span>
+                  <span>Global Medium of Exchange & Store of value for the future</span>
                 </li>
               </ul>
             </div>
@@ -125,15 +125,15 @@ const Jobs = () => {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Work from anywhere</span>
+                  <span>Work from anywhere, even on a beach</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>No currency conversion fees</span>
+                  <span>No currency conversion fees, you get paid in Bitcoin</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Borderless payments</span>
+                  <span>Borderless payments, you can receive Bitcoin globally</span>
                 </li>
               </ul>
             </div>
@@ -146,20 +146,20 @@ const Jobs = () => {
               </div>
               <p className="text-muted-foreground mb-4">
                 Bitcoin companies need all types of professionals - developers, 
-                designers, marketers, writers, and more.
+                designers, marketers, writers & more.
               </p>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Technical and non-technical roles</span>
+                  <span>Technical & non-technical roles available</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Full-time and freelance opportunities</span>
+                  <span>Full-time & freelance opportunities</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Growing industry with high demand</span>
+                  <span>Growing industry with high demand for industry-specific skills</span>
                 </li>
               </ul>
             </div>
