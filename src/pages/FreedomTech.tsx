@@ -51,7 +51,7 @@ const FreedomTech = () => {
               <span className="font-semibold">// About FreedomTech</span>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Explore open source projects and opportunities in the Bitcoin and freedom technology space. 
+              Explore open source projects & opportunities in the Bitcoin & freedom technology space. 
               Contribute to building a more sovereign future through code, design, and innovation.
             </p>
           </div>
@@ -96,10 +96,10 @@ const FreedomTech = () => {
                 <span className="text-xs text-muted-foreground font-mono">REMOTE</span>
               </div>
               
-              <h3 className="text-lg font-semibold mb-2 font-mono">Time2Build Bitcoin Development</h3>
+              <h3 className="text-lg font-semibold mb-2 font-mono">Time2Build Bitcoin Development by Breez</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Join a Bitcoin development program focused on building the future of decentralized technology. 
-                Work on cutting-edge Bitcoin projects and contribute to the ecosystem.
+                Join a worldwide developer challenge to bring bitcoin to the world's leading Open-Source applications & services using the Breez SDK. 
+                The goal is not to build another Bitcoin wallet, but to integrate Bitcoin into popular Open-Source apps that already exist.
               </p>
               
               {/* Additional Details */}
@@ -107,9 +107,9 @@ const FreedomTech = () => {
                 <div className="text-xs text-primary font-mono mb-2">PROGRAM DETAILS:</div>
                 <ul className="text-xs text-muted-foreground space-y-1">
                   <li>• Remote Bitcoin development opportunities</li>
-                  <li>• Work on real-world Bitcoin projects</li>
+                  <li>• Work on real-world Open-Source projects</li>
                   <li>• Contribute to the Bitcoin ecosystem</li>
-                  <li>• Learn from experienced developers</li>
+                  <li>• $25,000 prize pool to be won!</li>
                 </ul>
               </div>
               
@@ -145,14 +145,8 @@ const FreedomTech = () => {
               <div className="flex gap-2">
                 <Button variant="outline" size="sm" className="gap-2" asChild>
                   <a href="https://www.time2build.dev/" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="h-3 w-3" />
-                    Apply Now
-                  </a>
-                </Button>
-                <Button variant="outline" size="sm" className="gap-2" asChild>
-                  <a href="https://www.time2build.dev/" target="_blank" rel="noopener noreferrer">
                     <Code2 className="h-3 w-3" />
-                    Learn More
+                    Learn More & Submit Your Project
                   </a>
                 </Button>
               </div>
