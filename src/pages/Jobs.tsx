@@ -125,15 +125,15 @@ const Jobs = () => {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Work from anywhere, even on a beach</span>
+                  <span>Work from anywhere - even on a beach</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>No currency conversion fees, you get paid in Bitcoin</span>
+                  <span>No currency conversion fees - you get paid in Bitcoin</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Borderless payments, you can receive Bitcoin globally</span>
+                  <span>Borderless payments - you can receive Bitcoin globally</span>
                 </li>
               </ul>
             </div>
@@ -175,7 +175,7 @@ const Jobs = () => {
               <span className="text-primary">&gt;</span> Remote Bitcoin Jobs
             </h2>
             <p className="text-xl text-muted-foreground">
-              Browse opportunities from Bitcoiner Jobs - the premier Bitcoin job board
+              Browse opportunities from Bitcoiner Jobs - the premier global Bitcoin job board
             </p>
           </div>
           
@@ -194,7 +194,7 @@ const Jobs = () => {
                 {/* Bitcoiner Jobs Branding */}
                 <div className="flex items-center justify-center gap-4 mb-4">
                   <div className="flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full">
-                    <img src="/1.png" alt="Bitcoiner Jobs" className="h-4 w-4" />
+                    <img src="/2.png" alt="Bitcoiner Jobs" className="h-12 w-21" />
                     <span className="text-xs font-medium text-primary">Powered by Bitcoiner Jobs</span>
                   </div>
                   <div className="text-xs text-muted-foreground">
@@ -226,7 +226,7 @@ const Jobs = () => {
               
               <div className="mt-6 text-center space-y-3">
                 <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                  <img src="/2.png" alt="Bitcoiner Jobs" className="h-3 w-3" />
+                  <img src="/2.png" alt="Bitcoiner Jobs" className="h-9 w-25" />
                   <span>This job board is hosted by Bitcoiner Jobs</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
@@ -271,6 +271,9 @@ const Jobs = () => {
                   <div className="text-sm">
                     <span className="text-primary">•</span> Legal & Compliance
                   </div>
+                  <div className="text-sm">
+                    <span className="text-primary">•</span> and many more...
+                  </div>
                 </div>
               </div>
 
@@ -290,11 +293,15 @@ const Jobs = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
-                    <span>Network in Bitcoin communities and events</span>
+                    <span>Network in Bitcoin communities & events</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
                     <span>Start with freelance gigs to build reputation</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <ArrowRight className="h-4 w-4 text-primary mt-0.5" />
+                    <span>Upskill, Upskill, Upskill...</span>
                   </li>
                 </ul>
               </div>
@@ -309,8 +316,11 @@ const Jobs = () => {
                 </p>
                 <div className="space-y-2">
                   <Button variant="outline" size="sm" className="w-full justify-start gap-2">
-                    <ExternalLink className="h-3 w-3" />
-                    Bitcoin for Everybody Course
+                    <ExternalLink className="h-3 w-3" /> 
+                    <a href="https://planb.network/en/courses?topics=bitcoin" target="_blank" rel="noopener noreferrer">
+                    PlanB - Fee Bitcoin Education Courses
+                    </a>
+
                   </Button>
                   <Button variant="outline" size="sm" className="w-full justify-start gap-2">
                     <ExternalLink className="h-3 w-3" />
@@ -321,7 +331,26 @@ const Jobs = () => {
                     Bitcoin Developer Resources
                   </Button>
                 </div>
+              {/* Bitcoiner Jobs Embed */}
+              <div className="w-full flex justify-center">
+                <div className="relative">
+                  {/* External website indicator */}
+                  <div className="absolute -top-2 -right-2 z-10">
+                    <div className="bg-orange-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                      External
+                    </div>
+                  </div>
               </div>
+              
+              <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/w3hnFCfCo84?si=3wgDmVIognR9nIsq" 
+              title="YouTube video player" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+              </iframe>
+            </div>
+            </div>
             </div>
           </div>
         </div>
@@ -353,7 +382,7 @@ const Jobs = () => {
               </Button>
             </div>
             <div className="mt-6 text-sm text-muted-foreground">
-              <p>Job listings powered by <strong>Bitcoiner Jobs</strong> - the premier Bitcoin job board</p>
+              <p>Job listings powered by <strong>Bitcoiner Jobs</strong> - the premier global Bitcoin job board</p>
             </div>
           </div>
         </div>
