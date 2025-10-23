@@ -17,7 +17,7 @@ const EasySatsHub = () => {
               THE EASYSATS CHRONICLE
             </h1>
             <p className="text-sm text-muted-foreground tracking-widest">
-              BUILDING TOMORROW, TODAY • EST. BLOCKHEIGHT 736253 • NAMIBIA
+              BUILDING TOMORROW, TODAY • EST. BLOCKHEIGHT 736,253 • NAMIBIA
             </p>
           </div>
           <nav className="flex justify-center gap-8 mt-6 text-sm font-serif border-t border-b border-border py-3">
@@ -36,7 +36,7 @@ const EasySatsHub = () => {
             <div className="border-l-4 border-primary pl-4">
               <p className="text-xs text-primary uppercase tracking-widest mb-2">Featured Story</p>
               <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight mb-4">
-                Namibia's First Bitcoin Revolution: Easy, Accessible, Unstoppable
+                Namibia's First Bitcoin Revolution: Easy, Accessible & Unstoppable
               </h2>
             </div>
 
@@ -58,6 +58,8 @@ const EasySatsHub = () => {
             <div className="flex gap-4">
               <Button size="lg" className="font-serif">Read Full Story</Button>
               <Button size="lg" variant="outline" className="font-serif">Join TimeForce</Button>
+              <Button size="lg" variant="outline" className="font-serif">Earn Bitcoin</Button>
+              <Button size="lg" variant="outline" className="font-serif">Build the Future</Button>
             </div>
           </div>
 
