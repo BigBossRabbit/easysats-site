@@ -59,7 +59,7 @@ const TimeForce = () => {
           
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A structured approach to onboarding business owners with Bitcoin solutions. 
-            Keep it simple, stay confident, and help others understand the power of true financial freedom.
+            Keep it simple, stay confident & help others understand the power of true financial freedom.
           </p>
           
           <div className="flex gap-4 justify-center">
@@ -98,11 +98,11 @@ const TimeForce = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <span className="text-destructive">•</span>
-                      <span>Monthly banking charges for storing money</span>
+                      <span>Monthly banking charges for storing your own money</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-destructive">•</span>
-                      <span>Additional fees for missed payments</span>
+                      <span>Additional fees for missed payments, or chargebacks</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-destructive">•</span>
@@ -120,11 +120,11 @@ const TimeForce = () => {
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-destructive">•</span>
-                      <span>Shady bookkeepers and bad actors</span>
+                      <span>Shady bookkeepers & bad actors</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-destructive">•</span>
-                      <span>System with no say yet continued payments</span>
+                      <span>System with No Representation, yet continued payments</span>
                     </li>
                   </ul>
                 </div>
@@ -190,7 +190,7 @@ const TimeForce = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-4 w-4 text-primary mt-0.5" />
-                  <span>Seed Phrase = Master Key</span>
+                  <span>Seed/Backup Phrase = Master Key</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-4 w-4 text-primary mt-0.5" />
@@ -206,7 +206,7 @@ const TimeForce = () => {
                 <h3 className="text-xl font-semibold">Additional Revenue Stream</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Accepting Bitcoin opens doors to new customers and revenue opportunities 
+                Accepting Bitcoin opens doors to new customers & revenue opportunities 
                 beyond traditional payment methods.
               </p>
               <ul className="space-y-2 text-sm">
@@ -236,7 +236,7 @@ const TimeForce = () => {
               <span className="text-primary">&gt;</span> The Opportunity
             </h2>
             <p className="text-xl text-muted-foreground">
-              Join the #EasySats Bitcoin Voucher Network
+              Join the #EasySats Bitcoin Network of Merchants
             </p>
           </div>
           
@@ -244,29 +244,32 @@ const TimeForce = () => {
             <div className="space-y-6">
               <div className="flex items-center gap-3">
                 <Globe className="h-6 w-6 text-primary" />
-                <h3 className="text-2xl font-semibold">Bitcoin Vouchers</h3>
+                <h3 className="text-2xl font-semibold">Bitcoin Merchants</h3>
               </div>
               <p className="text-muted-foreground">
-                We don't sell Bitcoin, we sell Bitcoin Vouchers. These Vouchers are identical 
-                to Mobile Airtime Vouchers like MTC or TN Mobile Vouchers, with the added ease 
-                of being able to scan a QR Code for redemption.
+                We don't teach you how to trade Bitcoin, we show you how to earn Bitcoin. 
+                Using our Merchant Platform, you can easily Accept Bitcoin for your Goods & Service.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-1" />
-                  <span>Familiar voucher system</span>
+                  <span>You already have the skills /7 products</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-1" />
-                  <span>QR Code redemption</span>
+                  <span>POS & Crowdfunding Pages</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-1" />
-                  <span>Set your own prices</span>
+                  <span>Affordable rates with 1st Month competely free</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="h-4 w-4 text-primary mt-1" />
-                  <span>Global visibility on map</span>
+                  <span>Addition to BTCMaps for global visibility</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ArrowRight className="h-4 w-4 text-primary mt-1" />
+                  <span>and many additional features</span>
                 </li>
               </ul>
             </div>
@@ -274,6 +277,10 @@ const TimeForce = () => {
             <div className="bg-primary/10 border border-primary rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Profit Share Progression</h3>
               <div className="space-y-4">
+              <p className="text-muted-foreground">
+                For those interested in joining the TimeForce & what that means for your ability to earn.
+                Sign-up a Sub-vendor & earn your percentage.
+              </p>
                 <div className="flex justify-between items-center">
                   <span className="text-sm">0-10 Sub-vendors</span>
                   <span className="font-semibold text-primary">70% EasySats / 30% You</span>
@@ -308,21 +315,25 @@ const TimeForce = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <div className="flex items-center gap-3 mb-4">
                 <BookOpen className="h-6 w-6 text-primary" />
-                <h3 className="text-xl font-semibold">Free Books</h3>
+                <h3 className="text-xl font-semibold">Open-Source Books</h3>
               </div>
               <ul className="space-y-3">
                 <li className="flex items-center justify-between">
-                  <span>Inventing Bitcoin</span>
+                  <span>The Bitcoin Whitepaper - In various Languages</span>
                   <Button variant="outline" size="sm" className="gap-2">
                     <ExternalLink className="h-3 w-3" />
+                    <a href="https://exonumia.africa/" target="_blank" rel="noopener noreferrer">
                     Read
+              </a>
                   </Button>
                 </li>
                 <li className="flex items-center justify-between">
-                  <span>The Simple Bitcoin Book Ever Written</span>
+                  <span>The Simple Bitcoin Book Ever Written - by Keysa Luna</span>
                   <Button variant="outline" size="sm" className="gap-2">
                     <ExternalLink className="h-3 w-3" />
+                    <a href="https://thesimplestbitcoinbook.net/#Free-Download" target="_blank" rel="noopener noreferrer">
                     Read
+              </a>
                   </Button>
                 </li>
               </ul>
@@ -335,17 +346,21 @@ const TimeForce = () => {
               </div>
               <ul className="space-y-3">
                 <li className="flex items-center justify-between">
-                  <span>A Look at the Lightning Network</span>
+                  <span>A Look at the Lightning Network - by Lyn Alden</span>
                   <Button variant="outline" size="sm" className="gap-2">
                     <ExternalLink className="h-3 w-3" />
+                    <a href="https://www.lynalden.com/lightning-network/" target="_blank" rel="noopener noreferrer">
                     Read
+              </a>
                   </Button>
                 </li>
                 <li className="flex items-center justify-between">
                   <span>The Saylor Academy - Bitcoin for Everybody</span>
                   <Button variant="outline" size="sm" className="gap-2">
                     <ExternalLink className="h-3 w-3" />
+                    <a href="https://learn.saylor.org/course/view.php?id=468" target="_blank" rel="noopener noreferrer">
                     Enroll
+              </a>
                   </Button>
                 </li>
               </ul>
@@ -369,7 +384,7 @@ const TimeForce = () => {
               <span className="text-primary">&gt;</span> Join TimeForce
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ready to become a Sub-Vendor? Sign up directly through our platform below.
+              Ready to become a Sub-Vendor, or to sign them up & become part of the TimeForce? Sign up directly through our platform below.
             </p>
           </div>
           
@@ -380,7 +395,7 @@ const TimeForce = () => {
                 <span className="font-semibold">EasySats Integrations</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Register for BTCPay Server access - secure, private, and censorship-resistant Bitcoin payments
+                Register for EasySats Server access - Building Tomorrow, Today!
               </p>
             </div>
             
@@ -394,9 +409,9 @@ const TimeForce = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">EasySats BTCPay Server Registration</h3>
+                  <h3 className="text-xl font-semibold mb-3">EasySats Server Registration</h3>
                   <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-                    Register for secure, private, and censorship-resistant Bitcoin payment processing. 
+                    Register for secure, private & censorship-resistant Bitcoin payment processing. 
                     Click below to access our registration form.
                   </p>
                 </div>
@@ -411,25 +426,13 @@ const TimeForce = () => {
                     <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                     </svg>
-                    Register for BTCPay Server
+                    Register for EasySats Server access
                   </a>
                   
                   <div className="text-sm text-muted-foreground">
                     <p className="mb-2">What you'll get:</p>
                     <ul className="space-y-1 text-left max-w-sm mx-auto">
-                      <li className="flex items-center gap-2">
-                        <svg className="h-4 w-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Self-hosted Bitcoin payment processor
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <svg className="h-4 w-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Secure and private transactions
-                      </li>
-                      <li className="flex items-center gap-2">
+                    <li className="flex items-center gap-2">
                         <svg className="h-4 w-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                         </svg>
@@ -439,7 +442,13 @@ const TimeForce = () => {
                         <svg className="h-4 w-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Completely free to use
+                        Completely free to use - for the 1st Month
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <svg className="h-4 w-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        Secure & private transactions - Self-custodial setup
                       </li>
                     </ul>
                   </div>
