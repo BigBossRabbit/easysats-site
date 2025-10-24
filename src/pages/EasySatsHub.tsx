@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Newspaper } from "lucide-react";
 import { Link } from "react-router-dom";
+import React from 'react';
 
 const EasySatsHub = () => {
   return (
@@ -57,9 +58,9 @@ const EasySatsHub = () => {
 
             <div className="flex gap-4">
               <Button size="lg" className="font-serif">Read Full Story</Button>
-              <Button size="lg" variant="outline" className="font-serif">Join TimeForce</Button>
-              <Button size="lg" variant="outline" className="font-serif">Earn Bitcoin</Button>
-              <Button size="lg" variant="outline" className="font-serif">Build the Future</Button>
+              <Button size="lg" variant="outline" className="font-serif" onClick={() => { window.location.href = "/timeforce"; }}>Join TimeForce</Button>
+              <Button size="lg" variant="outline" className="font-serif" onClick={() => { window.location.href = "/jobs"; }}>Earn Bitcoin</Button>
+              <Button size="lg" variant="outline" className="font-serif" onClick={() => { window.location.href = "/freedomtech"; }}>Build the Future</Button>
             </div>
           </div>
 

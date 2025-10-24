@@ -52,7 +52,7 @@ const TimeForce = () => {
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             <span className="text-primary">&gt;</span> TimeForce
             <br />
-            <span className="text-primary">&gt;</span> Orange Pill
+            <span className="text-primary">&gt;</span> Bitcoin Onboarding
             <br />
             <span className="text-primary">&gt;</span> Handbook
           </h1>
@@ -275,11 +275,11 @@ const TimeForce = () => {
             </div>
             
             <div className="bg-primary/10 border border-primary rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4">Profit Share Progression</h3>
+              <h3 className="text-xl font-semibold mb-4">TimeForce Onboarding Profit Share</h3>
               <div className="space-y-4">
               <p className="text-muted-foreground">
                 For those interested in joining the TimeForce & what that means for your ability to earn.
-                Sign-up a Sub-vendor & earn your percentage.
+                Sign-up a Sub-vendor & earn your percentage of their Subscription.
               </p>
                 <div className="flex justify-between items-center">
                   <span className="text-sm">0-10 Sub-vendors</span>
@@ -366,13 +366,6 @@ const TimeForce = () => {
               </ul>
             </div>
           </div>
-          
-          <div className="mt-8 text-center">
-            <Button size="lg" className="gap-2">
-              <Globe className="h-4 w-4" />
-              Visit okinent.com
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -384,7 +377,10 @@ const TimeForce = () => {
               <span className="text-primary">&gt;</span> Join TimeForce
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ready to become a Sub-Vendor, or to sign them up & become part of the TimeForce? Sign up directly through our platform below.
+              Ready to become a Sub-Vendor, or to sign them up & become part of the TimeForce? 
+            </p>
+            <p className="text-xl text-muted-foreground">
+              Sign up directly through our platform below.
             </p>
           </div>
           
