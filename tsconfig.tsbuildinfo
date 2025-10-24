@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/ui/button.tsx","./src/lib/utils.ts","./src/pages/easysatshub.tsx","./src/pages/freedomtech.tsx","./src/pages/jobs.tsx","./src/pages/timeforce.tsx"],"errors":true,"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/ui/button.tsx","./src/lib/utils.ts","./src/pages/easysatshub.tsx","./src/pages/freedomtech.tsx","./src/pages/jobs.tsx","./src/pages/timeforce.tsx"],"version":"5.9.3"}
