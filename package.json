@@ -1,9 +1,8 @@
 {
   "name": "easysats",
   "version": "1.0.0",
-  "description": "",
+  "description": "A single place for all things EasySats",
   "main": "index.js",
-  "homepage": "https://bigbossrabbit.github.io/easysats-site/"
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
